@@ -11,6 +11,7 @@ const Header = (props) => {
   };
 
   return (
+    <>
     <nav className="navbar navbar-expand-lg navbar-light navbar-color">
       <div className="container-fluid">
         <Link to='/'>
@@ -58,7 +59,8 @@ const Header = (props) => {
           </ul>
         </div>
       </div>
-    </nav>
+      </nav>
+      </>
   );
 };
 export default withRouter(Header);

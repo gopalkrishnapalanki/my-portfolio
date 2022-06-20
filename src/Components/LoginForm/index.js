@@ -50,6 +50,7 @@ class LoginForm extends Component {
       return <Redirect to="/" />;
     }
     return (
+      <>
       <div className="container">
         <div className="row">
           <div className="col-lg-4 col-md-8 offset-md-2 offset-lg-4 login-form">
@@ -98,7 +99,8 @@ class LoginForm extends Component {
             </form>
           </div>
         </div>
-      </div>
+        </div>
+        </>
     );
   }
 }

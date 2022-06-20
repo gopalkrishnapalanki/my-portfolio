@@ -4,7 +4,7 @@ import Contact from "../Contact";
 
 const About = () => {
   return (
-    <div>
+   <>
         <Header/>
       <section className="my-hei p-5">
         <div className='container'>
@@ -25,7 +25,7 @@ const About = () => {
         </div>
       </section>
       <Contact/>
-    </div>
+      </>
   );
 };
 

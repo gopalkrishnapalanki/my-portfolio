@@ -2,6 +2,7 @@ import React from 'react'
 
 export default function Skills() {
   return (
+    <>
       <div className='my-hei'>
           
           <section className='my-hei' style={{backgroundColor:'#e8e8e8'}}>
@@ -30,6 +31,7 @@ export default function Skills() {
           </div>
         </div>
       </section>
-    </div>
+      </div>
+      </>
   )
 }

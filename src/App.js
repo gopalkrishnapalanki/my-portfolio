@@ -11,19 +11,15 @@ import Footer from "./Components/Footer";
 
 const App = () => (
   <>
-   
     <BrowserRouter>
       <Switch>
-        
-       
         <Route exact path="/login" component={LoginForm}></Route>
-        <ProtectedRoute exact path='/' component={Home}/>
+        <ProtectedRoute exact path="/" component={Home} />
         <ProtectedRoute exact path="/about" component={About}></ProtectedRoute>
         <ProtectedRoute component={NotFound} />
-        
       </Switch>
     </BrowserRouter>
-    <Footer/>
+    <Footer />
   </>
 );
 
