@@ -1,0 +1,17 @@
+.bordered-image{
+    border-radius: 20px;
+}
+.pt-40{
+    padding-top: 30px;
+}
+.ptb-60{
+    padding: 40px 0;
+}
+
+ul li{
+    list-style-type: none;
+    
+}
+.icon-color{
+    color: #0d6efd;;
+}

@@ -1,0 +1,14 @@
+.navbar-nav{
+    margin-left: 75%;
+}
+.nav-link {
+    font-family: 'Roboto';
+    text-decoration: none;
+color: aliceblue !important;
+    font-weight: 400;
+    font-size: 16px;
+  
+  }
+  .navbar-color{
+      background-color: #5a5a5a63;
+  }
